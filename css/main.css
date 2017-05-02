@@ -1,2 +1,31 @@
 @charset "UTF-8";
 /* CSS Document */
+
+/* "*" allows you to stylize ALL of the stuff in the doc*/
+
+*{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* text styling outside of table */
+ h1{
+  font-family: Helvetica, Arial, sans-serif;
+ }
+
+ h2{
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  margin-top: -20px;
+ }
+
+ /* styling within table */
+
+tr:nth-child(even){
+  background-color: #EBEBD0;
+}
+
+th{
+  text-align: left;
+  font-weight: 600;
+}
