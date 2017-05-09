@@ -1,0 +1,488 @@
+Last login: Tue May  2 12:10:54 on console
+grc-india:~ mvpape$ cd /Users/mvpape/Desktop/338_03_L5_mvpape 
+grc-india:338_03_L5_mvpape mvpape$ psd
+-bash: psd: command not found
+grc-india:338_03_L5_mvpape mvpape$ pwd
+/Users/mvpape/Desktop/338_03_L5_mvpape
+grc-india:338_03_L5_mvpape mvpape$ git init
+Initialized empty Git repository in /Users/mvpape/Desktop/338_03_L5_mvpape/.git/
+grc-india:338_03_L5_mvpape mvpape$ git add -A
+grc-india:338_03_L5_mvpape mvpape$ git commit -m "add files"
+[master (root-commit) 934a3c6] add files
+ 9 files changed, 6329 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 css/main.css
+ create mode 100755 images/LimeGreen.jpg
+ create mode 100755 images/Logo.ai
+ create mode 100755 images/black.png
+ create mode 100755 images/green.jpg
+ create mode 100644 images/logo.gif
+ create mode 100755 images/white.jpg
+ create mode 100644 index.html
+grc-india:338_03_L5_mvpape mvpape$ git remote add origin https://github.com/madalynvpape/Lab-5.git
+grc-india:338_03_L5_mvpape mvpape$ git push -u origin master
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (13/13), 2.67 MiB | 1.75 MiB/s, done.
+Total 13 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/madalynvpape/Lab-5.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-india:338_03_L5_mvpape mvpape$ git add -A
+grc-india:338_03_L5_mvpape mvpape$ git commit -m "Create table structure+content"
+[master ecbf3d8] Create table structure+content
+ 1 file changed, 95 insertions(+)
+grc-india:338_03_L5_mvpape mvpape$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-india:338_03_L5_mvpape mvpape$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 857 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/madalynvpape/Lab-5.git
+   934a3c6..ecbf3d8  master -> master
+grc-india:338_03_L5_mvpape mvpape$ git add -A
+grc-india:338_03_L5_mvpape mvpape$ git commit -m "Add photos"
+[master 0670654] Add photos
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+grc-india:338_03_L5_mvpape mvpape$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-india:338_03_L5_mvpape mvpape$ git commit -am "CSS styling"
+[master 3b548e2] CSS styling
+ 2 files changed, 33 insertions(+), 4 deletions(-)
+grc-india:338_03_L5_mvpape mvpape$ git commit -am "add nav bar"
+[master 5c7c50e] add nav bar
+ 1 file changed, 12 insertions(+)
+grc-india:338_03_L5_mvpape mvpape$ git commit -am "Stylize nav bar"
+[master 28ac029] Stylize nav bar
+ 3 files changed, 46 insertions(+), 12 deletions(-)
+ rewrite images/logo.gif (100%)
+grc-india:338_03_L5_mvpape mvpape$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-india:338_03_L5_mvpape mvpape$ git commit -am "Stylize nav bar, add hr"
+[master 7316e9c] Stylize nav bar, add hr
+ 2 files changed, 41 insertions(+), 12 deletions(-)
+grc-india:338_03_L5_mvpape mvpape$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-india:338_03_L5_mvpape mvpape$ git push
+Counting objects: 23, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (23/23), 4.61 KiB | 0 bytes/s, done.
+Total 23 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas: 100% (10/10), completed with 3 local objects.
+To https://github.com/madalynvpape/Lab-5.git
+   ecbf3d8..7316e9c  master -> master
+grc-india:338_03_L5_mvpape mvpape$ git log
+commit 7316e9c2c554e93fd123c09e5caa4833874b73c8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:37:36 2017 -0700
+
+    Stylize nav bar, add hr
+
+commit 28ac0294f33968037634ac16f2282d8976239ed8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:08:36 2017 -0700
+
+    Stylize nav bar
+
+commit 5c7c50ea352f5f6ee8a57de5532ef81ade58c331
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:36:13 2017 -0700
+
+    add nav bar
+
+commit 3b548e2581610dc65e6e59c64b5929dc43b626ff
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:35:15 2017 -0700
+
+    CSS styling
+:...skipping...
+commit 7316e9c2c554e93fd123c09e5caa4833874b73c8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:37:36 2017 -0700
+
+    Stylize nav bar, add hr
+
+commit 28ac0294f33968037634ac16f2282d8976239ed8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:08:36 2017 -0700
+
+    Stylize nav bar
+
+commit 5c7c50ea352f5f6ee8a57de5532ef81ade58c331
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:36:13 2017 -0700
+
+    add nav bar
+
+commit 3b548e2581610dc65e6e59c64b5929dc43b626ff
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:35:15 2017 -0700
+
+    CSS styling
+
+:...skipping...
+commit 7316e9c2c554e93fd123c09e5caa4833874b73c8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:37:36 2017 -0700
+
+    Stylize nav bar, add hr
+
+commit 28ac0294f33968037634ac16f2282d8976239ed8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:08:36 2017 -0700
+
+    Stylize nav bar
+
+commit 5c7c50ea352f5f6ee8a57de5532ef81ade58c331
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:36:13 2017 -0700
+
+    add nav bar
+
+commit 3b548e2581610dc65e6e59c64b5929dc43b626ff
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:35:15 2017 -0700
+
+    CSS styling
+
+commit 06706543872de089c7e32ccbc5560454bba753f4
+:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit 7316e9c2c554e93fd123c09e5caa4833874b73c8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:37:36 2017 -0700
+
+    Stylize nav bar, add hr
+
+commit 28ac0294f33968037634ac16f2282d8976239ed8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:08:36 2017 -0700
+
+    Stylize nav bar
+
+commit 5c7c50ea352f5f6ee8a57de5532ef81ade58c331
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:36:13 2017 -0700
+
+    add nav bar
+
+commit 3b548e2581610dc65e6e59c64b5929dc43b626ff
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:35:15 2017 -0700
+
+    CSS styling
+
+commit 06706543872de089c7e32ccbc5560454bba753f4
+:...skipping...
+commit 7316e9c2c554e93fd123c09e5caa4833874b73c8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:37:36 2017 -0700
+
+    Stylize nav bar, add hr
+
+commit 28ac0294f33968037634ac16f2282d8976239ed8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:08:36 2017 -0700
+
+    Stylize nav bar
+
+commit 5c7c50ea352f5f6ee8a57de5532ef81ade58c331
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:36:13 2017 -0700
+
+    add nav bar
+
+commit 3b548e2581610dc65e6e59c64b5929dc43b626ff
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:35:15 2017 -0700
+
+    CSS styling
+
+commit 06706543872de089c7e32ccbc5560454bba753f4
+Author: Madalyn Pape <madalynvpape@gmail.com>
+:...skipping...
+commit 7316e9c2c554e93fd123c09e5caa4833874b73c8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:37:36 2017 -0700
+
+    Stylize nav bar, add hr
+
+commit 28ac0294f33968037634ac16f2282d8976239ed8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:08:36 2017 -0700
+
+    Stylize nav bar
+
+commit 5c7c50ea352f5f6ee8a57de5532ef81ade58c331
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:36:13 2017 -0700
+
+    add nav bar
+
+commit 3b548e2581610dc65e6e59c64b5929dc43b626ff
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:35:15 2017 -0700
+
+    CSS styling
+
+commit 06706543872de089c7e32ccbc5560454bba753f4
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:20:32 2017 -0700
+:...skipping...
+commit 7316e9c2c554e93fd123c09e5caa4833874b73c8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:37:36 2017 -0700
+
+    Stylize nav bar, add hr
+
+commit 28ac0294f33968037634ac16f2282d8976239ed8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:08:36 2017 -0700
+
+    Stylize nav bar
+
+commit 5c7c50ea352f5f6ee8a57de5532ef81ade58c331
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:36:13 2017 -0700
+
+    add nav bar
+
+commit 3b548e2581610dc65e6e59c64b5929dc43b626ff
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:35:15 2017 -0700
+
+    CSS styling
+
+commit 06706543872de089c7e32ccbc5560454bba753f4
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:20:32 2017 -0700
+
+    Add photos
+:...skipping...
+commit 7316e9c2c554e93fd123c09e5caa4833874b73c8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:37:36 2017 -0700
+
+    Stylize nav bar, add hr
+
+commit 28ac0294f33968037634ac16f2282d8976239ed8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:08:36 2017 -0700
+
+    Stylize nav bar
+
+commit 5c7c50ea352f5f6ee8a57de5532ef81ade58c331
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:36:13 2017 -0700
+
+    add nav bar
+
+commit 3b548e2581610dc65e6e59c64b5929dc43b626ff
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:35:15 2017 -0700
+
+    CSS styling
+
+commit 06706543872de089c7e32ccbc5560454bba753f4
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:20:32 2017 -0700
+
+    Add photos
+
+commit ecbf3d84ca3cafef15f55c430472bcf14537512c
+:...skipping...
+commit 7316e9c2c554e93fd123c09e5caa4833874b73c8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:37:36 2017 -0700
+
+    Stylize nav bar, add hr
+
+commit 28ac0294f33968037634ac16f2282d8976239ed8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:08:36 2017 -0700
+
+    Stylize nav bar
+
+commit 5c7c50ea352f5f6ee8a57de5532ef81ade58c331
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:36:13 2017 -0700
+
+    add nav bar
+
+commit 3b548e2581610dc65e6e59c64b5929dc43b626ff
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:35:15 2017 -0700
+
+    CSS styling
+
+commit 06706543872de089c7e32ccbc5560454bba753f4
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:20:32 2017 -0700
+
+    Add photos
+
+commit ecbf3d84ca3cafef15f55c430472bcf14537512c
+Author: Madalyn Pape <madalynvpape@gmail.com>
+:...skipping...
+commit 7316e9c2c554e93fd123c09e5caa4833874b73c8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:37:36 2017 -0700
+
+    Stylize nav bar, add hr
+
+commit 28ac0294f33968037634ac16f2282d8976239ed8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:08:36 2017 -0700
+
+    Stylize nav bar
+
+commit 5c7c50ea352f5f6ee8a57de5532ef81ade58c331
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:36:13 2017 -0700
+
+    add nav bar
+
+commit 3b548e2581610dc65e6e59c64b5929dc43b626ff
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:35:15 2017 -0700
+
+    CSS styling
+
+commit 06706543872de089c7e32ccbc5560454bba753f4
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:20:32 2017 -0700
+
+    Add photos
+
+commit ecbf3d84ca3cafef15f55c430472bcf14537512c
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:14:21 2017 -0700
+
+    Create table structure+content
+
+:...skipping...
+commit 7316e9c2c554e93fd123c09e5caa4833874b73c8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:37:36 2017 -0700
+
+    Stylize nav bar, add hr
+
+commit 28ac0294f33968037634ac16f2282d8976239ed8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:08:36 2017 -0700
+
+    Stylize nav bar
+
+commit 5c7c50ea352f5f6ee8a57de5532ef81ade58c331
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:36:13 2017 -0700
+
+    add nav bar
+
+commit 3b548e2581610dc65e6e59c64b5929dc43b626ff
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:35:15 2017 -0700
+
+    CSS styling
+
+commit 06706543872de089c7e32ccbc5560454bba753f4
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:20:32 2017 -0700
+
+    Add photos
+
+commit ecbf3d84ca3cafef15f55c430472bcf14537512c
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:14:21 2017 -0700
+
+    Create table structure+content
+
+commit 934a3c6a3e229d5931e8a2443dfc56909f97163f
+Author: Madalyn Pape <madalynvpape@gmail.com>
+:...skipping...
+commit 7316e9c2c554e93fd123c09e5caa4833874b73c8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:37:36 2017 -0700
+
+    Stylize nav bar, add hr
+
+commit 28ac0294f33968037634ac16f2282d8976239ed8
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 14:08:36 2017 -0700
+
+    Stylize nav bar
+
+commit 5c7c50ea352f5f6ee8a57de5532ef81ade58c331
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:36:13 2017 -0700
+
+    add nav bar
+
+commit 3b548e2581610dc65e6e59c64b5929dc43b626ff
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:35:15 2017 -0700
+
+    CSS styling
+
+commit 06706543872de089c7e32ccbc5560454bba753f4
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:20:32 2017 -0700
+
+    Add photos
+
+commit ecbf3d84ca3cafef15f55c430472bcf14537512c
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 13:14:21 2017 -0700
+
+    Create table structure+content
+
+commit 934a3c6a3e229d5931e8a2443dfc56909f97163f
+Author: Madalyn Pape <madalynvpape@gmail.com>
+Date:   Tue May 2 12:54:44 2017 -0700
+
+    add files
+~
+grc-india:338_03_L5_mvpape mvpape$ 

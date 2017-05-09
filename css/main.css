@@ -4,7 +4,7 @@
 /* "*" allows you to stylize ALL of the stuff in the doc*/
 
 *{
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
 }
 hr{
   width: 100%;
@@ -12,11 +12,11 @@ hr{
 
 /* text styling outside of table */
  h1{
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', Helvetica, sans-serif;
  }
 
  h2{
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', Helvetica, sans-serif;
   font-weight: 200;
   margin-top: -20px;
  }
@@ -97,3 +97,5 @@ span{
   font-style: italic;
   font-weight: normal;
 }
+
+/*styling form*/
