@@ -35,9 +35,12 @@ li{
   width: 130px;
   line-height: 50px;
 }
+
 a{
   text-decoration: none;
-}a:link{
+}
+
+a:link{
   text-decoration: none;
   font-family: 'Noto Sans', Helvetica, sans-serif;
   /*text-transform: uppercase;*/
@@ -101,12 +104,13 @@ span{
 /*styling form*/
 form p{
   font-family: 'Noto Sans', Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: 200;
   color: gray;
 }
 
 form h2{
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 300;
   margin-top: 40px;
   margin-bottom: 10px;
@@ -117,3 +121,20 @@ form h3{
   font-size: 20px;
   font-weight: 100;
 }
+
+fieldset#faves{
+  padding: 30px;
+  border-color: gray;
+}
+
+fieldset#address{
+  padding: 10px 30px;
+  border-color: gray;
+}
+
+fieldset#payment{
+  padding: 30px;
+  border-color: gray;
+}
+
+.

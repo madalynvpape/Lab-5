@@ -24,11 +24,15 @@
 <hr>
 
 <h1>Hydro Flask</h1>
+<h2>Wide Mouth with Flex Cap</h2>
+
+
 <!--Form Exists here-->
 <form action="#javascript" method="get">
 <!--Favorite Color Selectors-->
-<fieldset>
-<h3>Select <strong>up to 5</strong> favorite HydroFlask&copy; colors:
+<fieldset id="faves">
+<h3>Select <strong>up to 5</strong> favorite HydroFlask&copy; colors:</h3>
+<p>
   <input type="checkbox" name="color" value="white" /> White
   <input type="checkbox" name="color" value="citron" /> Citron
   <input type="checkbox" name="color" value="raspberry" /> Raspberry
@@ -38,13 +42,13 @@
   <input type="checkbox" name="color" value="lemon" /> Lemon
   <input type="checkbox" name="color" value="kiwi" /> Kiwi
   <input type="checkbox" name="color" value="black" /> Black
-</h3>
+</p>
 </fieldset>
 
 <!--Address Information-->
 
 <h2>Shipping Information:</h2>
-<fieldset>
+<fieldset id="address">
 <p>* First: <input type="text" name="firstname" size="20" required/>
    * Last: <input type="text" name="lastname" size="20" required/>
    * Gender: <input type="radio" name="gender" value="male"/> Male
@@ -118,18 +122,19 @@
 
 <!--Credit Card information-->
 <h2>Payment Method:</h2>
-<fieldset>
- <img src="images/visa.gif" alt="visa" width="100px"/>
- <img src="images/american_express.png" alt="american express" width="50px"/>
- <img src="images/mastercard.gif" alt="mastercard" width="70px"/>
+<fieldset id="payment">
+ <img src="images/visa.gif" alt="visa" width="60px"/>
+ <img src="images/american_express.png" alt="american express" width="20px"/>
+ <img src="images/mastercard.gif" alt="mastercard" width="40px"/>
 
+<p>Name on Card: &nbsp; <input type="text" size="50"></p>
  <p>Card Number<input type="text" size="20">
     &nbsp;Security (CVV #)&nbsp;<input type="text" size="5">
     &nbsp;Expiration Date (MM/YY)&nbsp;<input type="text" size="2" maxlength="2">/<input type="text" size="2" maxlength="2">
 </p>
 </fieldset>
 
-<input type="submit" value="Submit"/>
+<input type="submit" value="Submit">
 
 
 
