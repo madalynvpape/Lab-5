@@ -27,6 +27,7 @@
 <!--Form Exists here-->
 <form action="#javascript" method="get">
 <!--Favorite Color Selectors-->
+<fieldset>
 <h3>Select <strong>up to 5</strong> favorite HydroFlask&copy; colors:
   <input type="checkbox" name="color" value="white" /> White
   <input type="checkbox" name="color" value="citron" /> Citron
@@ -38,11 +39,12 @@
   <input type="checkbox" name="color" value="kiwi" /> Kiwi
   <input type="checkbox" name="color" value="black" /> Black
 </h3>
-
+</fieldset>
 
 <!--Address Information-->
 
 <h2>Shipping Information:</h2>
+<fieldset>
 <p>* First: <input type="text" name="firstname" size="20" required/>
    * Last: <input type="text" name="lastname" size="20" required/>
    * Gender: <input type="radio" name="gender" value="male"/> Male
@@ -51,10 +53,10 @@
 </p>
 
 
-<p> * Street Address:</address><input type="text" size="50" required/></p>
-<p> Apt./Suite #/Floor:</address><input type="text" size="50" ></p>
+<p> * Street Address:&nbsp;</address><input type="text" size="50" required/></p>
+<p> Apt./Suite #/Floor:&nbsp;</address><input type="text" size="50" ></p>
 <p> * City: </address><input type="text" size="20" required/>
-    * State:  <select name="state">
+    &nbsp;* State:  <select name="state">
             <option value="AL">Alabama</option>
             <option value="AK">Alaska</option>
             <option value="AZ">Arizona</option>
@@ -110,21 +112,24 @@
     * Zip <input type="text" size="10" required/>
 </p>
 
-<p>*Phone Number<input type="text" size="15" required/></p>
-<p>*Email<input type="text" size="25" required/></p>
+<p>*Phone Number:&nbsp;<input type="text" size="15" required/></p>
+<p>*Email:&nbsp;<input type="text" size="25" required/></p>
+</fieldset>
 
 <!--Credit Card information-->
 <h2>Payment Method:</h2>
+<fieldset>
  <img src="images/visa.gif" alt="visa" width="100px"/>
  <img src="images/american_express.png" alt="american express" width="50px"/>
  <img src="images/mastercard.gif" alt="mastercard" width="70px"/>
 
  <p>Card Number<input type="text" size="20">
-    Security (CVV #)<input type="text" size="5">
-    Expiration Date (MM/YY)<input type="text" size="2" maxlength="2">/<input type="text" size="2" maxlength="2">
+    &nbsp;Security (CVV #)&nbsp;<input type="text" size="5">
+    &nbsp;Expiration Date (MM/YY)&nbsp;<input type="text" size="2" maxlength="2">/<input type="text" size="2" maxlength="2">
 </p>
+</fieldset>
 
-
+<input type="submit" value="Submit"/>
 
 
 
