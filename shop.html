@@ -128,13 +128,13 @@
  <img src="images/mastercard.gif" alt="mastercard" width="40px"/>
 
 <p>Name on Card: &nbsp; <input type="text" size="50"></p>
- <p>Card Number<input type="text" size="20">
-    &nbsp;Security (CVV #)&nbsp;<input type="text" size="5">
+ <p>Card Number<input type="text" size="20" maxlength="16">
+    &nbsp;Security (CVV #)&nbsp;<input type="text" size="5" maxlength="3">
     &nbsp;Expiration Date (MM/YY)&nbsp;<input type="text" size="2" maxlength="2">/<input type="text" size="2" maxlength="2">
 </p>
 </fieldset>
 
-<input type="submit" value="Submit">
+<p><input type="submit" id="submit" value="Submit"></p>
 
 
 
